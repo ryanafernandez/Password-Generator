@@ -36,8 +36,13 @@ function generatePassword() {
   var upper = confirm("Click OK to confirm including uppercase characters.");
   var numeric = confirm("Click OK to confirm including numeric characters.");
   var special = confirm("Click OK to confirm including special characters.");
-    
   
+  // Validate user selections
+  if (!lower && !upper && !numeric && !special) {
+    alert("Please select at least one character type to include in the password.");
+    return password;
+  }
+
   // Generate the password
   pool = '';      // Reset pool
   password = '';  // Reset password
@@ -63,6 +68,8 @@ function generatePassword() {
     
     if (random == pool.length) {
       alert("WARNING: about to select out of bounds character.");
+      password = "Had to abort, please try again.";
+      return password;
     }
     
     // Assign random char from pool to password
