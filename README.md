@@ -13,12 +13,15 @@ N/A
 ## Usage
 
 To use this website, there is a button labeled "Generate Password" that will initiate the script for generating and displaying the user's password.
+
 ![generate password button](assets/images/gen-pass.png)
 
 After clicking the button, the user is presented with a prompt for entering the number of characters they would like their password to contain. The user's input must be between 8 and 128 entered as a number. If the user enters an out of bounds number or the user's input is not entered as a number, then an alert will be displayed that will instruct the user to correct any errors in their entry.
+
 ![password length flow](assets/images/pass-length.png)
 
 Once the password length has been correctly entered, then the user will be presented with a series of four confirmation windows that guide the user to select which criteria they would like to be applied to their generated password.
+
 ![criteria selection flow](assets/images/correct-flow.png)
 
 If the user selects none of the presented options, then an alert will be displayed instructing the user to select at least one option.
@@ -28,12 +31,15 @@ If the user selects none of the presented options, then an alert will be display
 Once the user correctly selects the password criteria options, then the user will be presented with their randomly generated password. The screenshots below show examples for generated passwords with different criteria being applied.
 
 50 Characters with all Criteria Selected
+
 ![50 characters with all criteria selected](assets/images/50-yyyy.png)
 
 50 Characters with only Alphabetic Characters
+
 ![50 characters with only alphabetic characters](assets/images/50-yynn.png)
 
 50 Characters with Lowercase, Uppercase, and Numberic Characters
+
 ![50 characters with lowercase, uppercase, and numeric characters](assets/images/50-yyyn.png)
 
 ## Credits
