@@ -22,6 +22,7 @@ Once the password length has been correctly entered, then the user will be prese
 ![criteria selection flow](assets/images/correct-flow.png)
 
 If the user selects none of the presented options, then an alert will be displayed instructing the user to select at least one option.
+
 ![no criteria selected alert](assets/images/choose-one.png)
 
 Once the user correctly selects the password criteria options, then the user will be presented with their randomly generated password. The screenshots below show examples for generated passwords with different criteria being applied.
